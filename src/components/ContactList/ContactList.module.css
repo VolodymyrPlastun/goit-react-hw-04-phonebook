@@ -1,0 +1,23 @@
+.list {
+    border: 1px solid grey;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #444;
+    width: 400px;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.btn {
+border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #444;
+}
